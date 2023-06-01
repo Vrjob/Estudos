@@ -1,0 +1,21 @@
+body {
+    width: 400px;
+    text-align: justify;
+    line-height: 1;
+    background: rgb(200, 200, 225);
+    margin: 20px 80px 100px 40px;
+    border: solid peru;
+    border-width: 20px 20px 50px 20px;
+    padding: 10px 50px 50px 10px;
+}
+
+h1 {
+    border: 1px solid red;
+}
+
+p {
+    color: blue;
+    background-color: aquamarine;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}

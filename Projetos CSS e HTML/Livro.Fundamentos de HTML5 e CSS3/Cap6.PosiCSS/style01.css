@@ -1,0 +1,85 @@
+img{
+    float: left;
+}
+.cont {
+    border: 1px solid black;
+    width: 300px;
+    height: 280px;
+    background: red;
+    position:relative
+}
+.cont > div{
+    background: yellow;
+}
+.cont > div:nth-child(2n){
+    background: blue;
+}
+.um{
+    width: 100px;
+    height: 50px;
+    float: left;
+    position:relative
+}
+.dois{
+    width: 65px;
+    height: 40px;
+    float: left;
+    position:relative
+}
+.tres{
+    width: 50px;
+    height: 45px;
+    float: left;
+    position:relative
+}
+.quatro{
+    width: 115px;
+    height: 60px;
+    float: left;
+    clear:both;
+    position:relative
+}
+.cinco{
+    width: 45px;
+    height: 20px;
+    float: left;
+    position:relative
+
+}
+.seis{
+    width: 50px;
+    height: 30px;
+    float: left;
+    position:relative
+}
+
+/*.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-*/
+.nothin{
+    border: none;
+}
+div{
+    border:2px solid #000;
+    position: absolute
+}
+div.UNO{
+    width: 200px;
+    height: 80px;
+    background: linear-gradient(0deg,red,blue);
+}
+div.DUNO{
+    width: 110px;
+    height: 120px;
+    left: 120px;
+    top: 20px;
+    background: #6f9;
+}
+div.TRENE{
+    width: 90px;
+    height: 60px;
+    left: 70px;
+    top: 50px;
+    background: #fcf;
+
+}
+
+
